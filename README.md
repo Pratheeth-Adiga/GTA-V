@@ -24,7 +24,7 @@
 
 #### create_training_data.py
  - It checks for the player input which is taken as a array and the screen and stores them.
- - It is mentioned in the code to record the screen from 0,40 to 800*640 when we are using 800*600 resolution because those 20 pixels account for the top bar of the application.   
+ - It is mentioned in the code to record the screen from 0,40 to 800 * 640 when we are using 800 * 600 resolution because those 20 pixels account for the top bar of the application.   
  - screen resolution is dropped to 120*160 and converted to mono for faster computation.
  - It waits for 5 seconds beforing starting and updates every 1000 frames which can be changed in the for loop and the if condition.
  - 'T' is the key used to pause and unpause the game which can also be changed.
