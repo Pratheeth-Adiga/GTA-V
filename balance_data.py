@@ -33,8 +33,8 @@ for data in train_data:
 
 
 forwards = forwards[:len(lefts)][:len(rights)][:len(backwards)]
-lefts = lefts[:len(forwards)]
-rights = rights[:len(forwards)]
+lefts = lefts[:len(backwards)]
+rights = rights[:len(backwards)]
 backwards = backwards[:len(lefts)][:len(rights)]
 
 
