@@ -8,7 +8,12 @@
 - Numpy
 - OpenCV2
 
-![Demp](https://github.com/Pratheeth-Adiga/GTA-V/blob/main/GTAV_Demo.mp4)
+---
+#### Demo
+
+https://github.com/Pratheeth-Adiga/GTA-V/assets/83741965/21d63914-95ed-4768-87da-bead25284cae
+
+---
 
 #### To start running this program:
 
@@ -19,7 +24,7 @@
 - Now run the train_model.py, it will take few minutes to train and it will post the accuracy of the model in the console while doing so or alternatively you can use `tensorboard --logdir=foo:C:/path/to/log` for a GUI interface of the trained model.
 - Now run command Powershell/Command prompt/Terminal in administrative mode and run test_model.py and after a timer of 5 seconds the program will start to press the keys(W,A,S,D) based on its predictions.
 
-****
+---
 
 ### Working
 
